@@ -1,17 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shawn's Blog</title><link>https://LEOnardoChen.github.io/</link><description>Recent content on Shawn's Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 08 Feb 2025 17:16:53 +0800</lastBuildDate><atom:link href="https://LEOnardoChen.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>PLGS</title><link>https://LEOnardoChen.github.io/projects/plgs/</link><pubDate>Sat, 08 Feb 2025 17:16:53 +0800</pubDate><guid>https://LEOnardoChen.github.io/projects/plgs/</guid><description/></item><item><title>软光栅化代码结构总结</title><link>https://LEOnardoChen.github.io/posts/%E8%BD%AF%E5%85%89%E6%A0%85%E5%8C%96%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E6%80%BB%E7%BB%93/</link><pubDate>Sat, 08 Feb 2025 15:34:53 +0800</pubDate><guid>https://LEOnardoChen.github.io/posts/%E8%BD%AF%E5%85%89%E6%A0%85%E5%8C%96%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84%E6%80%BB%E7%BB%93/</guid><description>&lt;h1 id="一overview">
- 一、Overview
- &lt;a class="heading-link" href="#%e4%b8%80overview">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shawn's Blog</title><link>https://LEOnardoChen.github.io/</link><description>Recent content on Shawn's Blog</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 29 Mar 2025 13:26:24 +0800</lastBuildDate><atom:link href="https://LEOnardoChen.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Demos</title><link>https://LEOnardoChen.github.io/posts/demos/</link><pubDate>Sat, 29 Mar 2025 13:26:24 +0800</pubDate><guid>https://LEOnardoChen.github.io/posts/demos/</guid><description>&lt;h1 id="demos-for-games101">
+ Demos For Games101
+ &lt;a class="heading-link" href="#demos-for-games101">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
  &lt;span class="sr-only">Link to heading&lt;/span>
  &lt;/a>
-&lt;/h1></description></item><item><title>First_article</title><link>https://LEOnardoChen.github.io/posts/first_article/</link><pubDate>Tue, 08 Oct 2024 20:09:15 +0800</pubDate><guid>https://LEOnardoChen.github.io/posts/first_article/</guid><description>&lt;p>I would like to tell qqs that I really really really like you !!!!!!&lt;/p></description></item><item><title/><link>https://LEOnardoChen.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://LEOnardoChen.github.io/about/</guid><description>&lt;h1 id="about-me">
+&lt;/h1>
+&lt;h2 id="rasterization">
+ Rasterization
+ &lt;a class="heading-link" href="#rasterization">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>基于C++完成了一个简单的软光栅化器，实现基本的渲染的管线。在此基础上，基于Blinn-Phong模型，实现了一系列纹理贴图的应用。
+&lt;figure>&lt;img src="https://LEOnardoChen.github.io/images/output%20%28phong%29.png"
+ alt="Phong">&lt;figcaption>
+ &lt;p>Phong&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;figure>&lt;img src="https://LEOnardoChen.github.io/images/output%20%28texture%29.png"
+ alt="texture">&lt;figcaption>
+ &lt;p>Texture&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;figure>&lt;img src="https://LEOnardoChen.github.io/images/output%20%28normal%29.png"
+ alt="normal">&lt;figcaption>
+ &lt;p>Normal&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;figure>&lt;img src="https://LEOnardoChen.github.io/images/output%28bump%29.png"
+ alt="bump">&lt;figcaption>
+ &lt;p>Bump&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+
+&lt;figure>&lt;img src="https://LEOnardoChen.github.io/images/output%28displacement%29.png"
+ alt="displacement">&lt;figcaption>
+ &lt;p>Displacement&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="raytracing">
+ RayTracing
+ &lt;a class="heading-link" href="#raytracing">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>基于C++完成了一个简单的光线追踪渲染器，使用BVH结构加速计算。
+&lt;figure>&lt;img src="https://LEOnardoChen.github.io/images/hw7%2816_spp%29.jpg"
+ alt="RT">&lt;figcaption>
+ &lt;p>RayTracing(16 spp)&lt;/p>
+ &lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h1 id="demos-for-games202">
+ Demos For Games202
+ &lt;a class="heading-link" href="#demos-for-games202">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h1>
+&lt;h2 id="pcss">
+ PCSS
+ &lt;a class="heading-link" href="#pcss">
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
+ &lt;span class="sr-only">Link to heading&lt;/span>
+ &lt;/a>
+&lt;/h2>
+&lt;p>基于WebGL框架实现了PCSS软阴影技术，以下是三种阴影技术（shadow map, PCF, PCSS）的对比：
+&lt;figure>&lt;img src="https://LEOnardoChen.github.io/images/SM.png"
+ alt="SM">&lt;figcaption>
+ &lt;p>SM&lt;/p></description></item><item><title/><link>https://LEOnardoChen.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://LEOnardoChen.github.io/about/</guid><description>&lt;h1 id="about-me">
  About me
  &lt;a class="heading-link" href="#about-me">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
  &lt;span class="sr-only">Link to heading&lt;/span>
  &lt;/a>
 &lt;/h1></description></item><item><title/><link>https://LEOnardoChen.github.io/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://LEOnardoChen.github.io/contact/</guid><description>&lt;h1 id="contact-me">
- contact me
+ Contact Me
  &lt;a class="heading-link" href="#contact-me">
  &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading">&lt;/i>
  &lt;span class="sr-only">Link to heading&lt;/span>
